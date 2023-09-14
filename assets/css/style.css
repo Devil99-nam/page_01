@@ -43,15 +43,26 @@ body{
     overflow: hidden;
 }
 /*header*/
-.header{
+.fix-header{
+    background: #E6F0FF;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap{
+    display: flex;
+    flex-direction: column;
     position: relative;
     background: #e6f0ff;
     height: 100vh;
+    
 }
 .navbar{
     display: flex;
     align-items: center;
-    padding-top: 38px;
+   /* padding-top: 38px;*/
+    padding: 12px 0px;
 }
 .navbar ul{
     display: flex;
@@ -315,7 +326,7 @@ body{
 }
 .stats{
     margin-top: 75px;
-    padding: 50PX 0;
+    padding: 50px 0;
 }
 .stats .content{
     width: 1018px;
