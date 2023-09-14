@@ -4,9 +4,7 @@
 :root{
     --primary-color: #0F1B4C;
 }
-html {
-    font-size: 62.5%;
-}
+
 /*common*/
 
 .btn{
@@ -32,7 +30,15 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+html,
+body {
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
 body{
+    scroll-behavior: smooth;
     font-size: 1.6rem;
     font-family: "Poppins",sans-serif ;
 }
@@ -55,7 +61,7 @@ body{
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     
 }
 .navbar{
